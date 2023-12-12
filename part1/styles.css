@@ -1,0 +1,5 @@
+:root {
+    --star-selected-color: gold; /* Default color for selected stars */
+    --star-unselected-color: gray; /* Default color for unselected stars */
+    --star-symbol: ★; /* Default symbol for a star */
+}
