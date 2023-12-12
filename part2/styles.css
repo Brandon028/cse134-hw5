@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Playfair+Display&display=swap');
+
+#weather-widget {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+    align-items: center;
+    width: min-content;
+    background-color: #2f3c4e;
+}
+
+
+#weather-widget > *{
+    color: white;
+    margin: 5px;
+    width: 150px;
+
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.weather-temp, .weather-icon{
+    font-size: 3em;
+}
+
+.weather-wind, .weather-humidity{
+    background-color: #506179;
+    border-radius: 10px;
+    padding-left: 10px;
+}
